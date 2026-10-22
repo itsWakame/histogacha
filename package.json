@@ -1,0 +1,14 @@
+{
+  "name": "daily-encounter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "今日与你相遇 — 每日一位已故者",
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --format=iife --target=es2019 --outfile=assets/js/app.bundle.js --minify"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "@tencent-ai/workbuddy-cloud-sdk": "dev"
+  }
+}

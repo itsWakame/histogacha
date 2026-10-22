@@ -1,0 +1,602 @@
+{
+  "caesar": {
+    "file": "caesar.jpg",
+    "bytes": 56654,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bktstktst_z&e3Bv54AzdH3F5r7fAzdH3F88n9n0ba8n9dbbal0na",
+    "word": "凯撒 画像 雕塑 罗马"
+  },
+  "joan": {
+    "file": "joan.jpg",
+    "bytes": 120224,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bc9m8blm980acnllab&ou6=frt1j6&u56=rv",
+    "word": "圣女贞德 画像 油画"
+  },
+  "elizabeth1": {
+    "file": "elizabeth1.jpg",
+    "bytes": 102076,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bpijrwrj6_z&e3BvgAzdH3FgjofDjpwts_u56ow61_dcb0d0lm",
+    "word": "伊丽莎白一世 画像 油画"
+  },
+  "louis14": {
+    "file": "louis14.jpg",
+    "bytes": 146948,
+    "src": "ippr_z2C$qAzdH3FAzdH3Futgwgvj_z&e3Bftgw_z&e3Bv54_z&e3BvgAzdH3F33xoAzdH3Fdad9-8d-8bAzdH3F15v-tgvzoroe00m9999_z&e3Bfip4s",
+    "word": "路易十四 画像 油画 太阳王"
+  },
+  "catherine2": {
+    "file": "catherine2.jpg",
+    "bytes": 83874,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_nbamdc89an9ac0lnlld",
+    "word": "叶卡捷琳娜二世 画像"
+  },
+  "lincoln": {
+    "file": "lincoln.jpg",
+    "bytes": 44250,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9a09db08bd0cnldmcd0",
+    "word": "亚伯拉罕林肯 肖像 照片"
+  },
+  "churchill": {
+    "file": "churchill.jpg",
+    "bytes": 60693,
+    "src": "ipprf_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9blnmm9d98cl9cm9d9m",
+    "word": "温斯顿丘吉尔 肖像 照片"
+  },
+  "nero": {
+    "file": "nero.jpg",
+    "bytes": 30016,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bktstktst_z&e3Bv54AzdH3F6jw1AzdH3Fve98d9abcn",
+    "word": "尼禄 罗马 皇帝 雕像 胸像"
+  },
+  "copernicus": {
+    "file": "copernicus.jpg",
+    "bytes": 40785,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fitfp56y_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbd99lnbl9_d880md",
+    "word": "哥白尼 画像"
+  },
+  "galileo": {
+    "file": "galileo.jpg",
+    "bytes": 41448,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bnln0bb8ncccdb00aa&ou6=frt1j6&u56=rv",
+    "word": "伽利略 画像 油画"
+  },
+  "newton": {
+    "file": "newton.jpg",
+    "bytes": 92031,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bpijrwrj6_z&e3BvgAzdH3FgjofDjpwts_u56ow61_na9bdb99",
+    "word": "艾萨克牛顿 画像 油画"
+  },
+  "darwin": {
+    "file": "darwin.jpg",
+    "bytes": 63345,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8b8m8c09d0nmdcncdad&ou6=frt1j6&u56=rv",
+    "word": "达尔文 肖像 照片"
+  },
+  "pasteur": {
+    "file": "pasteur.jpg",
+    "bytes": 81987,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9c0baaadd8n8m0a9am0",
+    "word": "巴斯德 肖像 照片"
+  },
+  "tesla": {
+    "file": "tesla.jpg",
+    "bytes": 69730,
+    "src": "ipprf_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_99dd8lmnd0aaabd0mld",
+    "word": "特斯拉 肖像 照片"
+  },
+  "curie": {
+    "file": "curie.jpg",
+    "bytes": 48896,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_c9nn0lcbl0dnmc8dn9n",
+    "word": "玛丽居里 肖像 照片"
+  },
+  "einstein": {
+    "file": "einstein.jpg",
+    "bytes": 26914,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bdbc8b999ddbdanncn&ou6=frt1j6&u56=rv",
+    "word": "爱因斯坦 肖像 照片"
+  },
+  "turing": {
+    "file": "turing.jpg",
+    "bytes": 22175,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bndddcmn8lmd0d009a&ou6=frt1j6&u56=rv",
+    "word": "艾伦图灵 肖像 照片"
+  },
+  "ada": {
+    "file": "ada.jpg",
+    "bytes": 35700,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fh_z&e3Bftgw_z&e3Bv54_z&e3BvgAzdH3Fw6ptvsj_mddcllama8_r80n8l8nvlad0aaus02_z&e3Bip4s",
+    "word": "阿达洛芙莱斯 画像"
+  },
+  "victoria": {
+    "file": "victoria.jpg",
+    "bytes": 86647,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_98b8cm89l9d9bbll8c0",
+    "word": "维多利亚女王 画像"
+  },
+  "washington": {
+    "file": "washington.jpg",
+    "bytes": 22215,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bziti7_z&e3Bv54AzdH3FrtgAzdH3F80aln88a0n0mnm8amd9?7p4_t1=a",
+    "word": "乔治华盛顿 画像 油画"
+  },
+  "franklin": {
+    "file": "franklin.jpg",
+    "bytes": 40909,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_dbdcn0aanmc90lblac8",
+    "word": "罗莎琳德富兰克林 照片"
+  },
+  "alexander": {
+    "file": "alexander.jpg",
+    "bytes": 61240,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fo56s1_z&e3Brj5rsj_z&e3Bv54_z&e3BvgAzdH3FgAzdH3Fda8nAzdH3Fam80AzdH3Fv8clnaa-d8b0aabn-nl_z&e3Bip4s",
+    "word": "亚历山大大帝 画像"
+  },
+  "michelangelo": {
+    "file": "michelangelo.jpg",
+    "bytes": 24567,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fitfp56y_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbbncdbcn9_8ddnb0cln",
+    "word": "米开朗基罗 画像"
+  },
+  "caravaggio": {
+    "file": "caravaggio.jpg",
+    "bytes": 93258,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bziti7_z&e3Bv54AzdH3Fq7jfpt5gAzdH3Fnnda09lcAzdH3Fwgfoj6AzdH3Fd0c0alaa0a?7p4_t1=a",
+    "word": "卡拉瓦乔 自画像"
+  },
+  "rembrandt": {
+    "file": "rembrandt.jpg",
+    "bytes": 36207,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9b0n88mdl0mbdddb8bn",
+    "word": "伦勃朗 自画像"
+  },
+  "vangogh": {
+    "file": "vangogh.jpg",
+    "bytes": 232177,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_988nca0c0bmc9ddmnna",
+    "word": "梵高 自画像 油画"
+  },
+  "monet": {
+    "file": "monet.jpg",
+    "bytes": 49020,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4p_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbadml8mlm_mnbcn8",
+    "word": "莫奈 自画像 印象派"
+  },
+  "picasso": {
+    "file": "picasso.jpg",
+    "bytes": 81530,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9cblbbcl9dabcdndam9",
+    "word": "毕加索 肖像 照片"
+  },
+  "kahlo": {
+    "file": "kahlo.jpg",
+    "bytes": 51294,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9b0lld8am008890ln90",
+    "word": "弗里达卡罗 自画像"
+  },
+  "mozart": {
+    "file": "mozart.jpg",
+    "bytes": 22688,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fv7s_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fb89lm0ab8_lllm08al",
+    "word": "莫扎特 画像 油画"
+  },
+  "beethoven": {
+    "file": "beethoven.jpg",
+    "bytes": 53604,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fv7s_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Flmdbbdlnc_8d8880clm",
+    "word": "贝多芬 画像 油画"
+  },
+  "freddie": {
+    "file": "freddie.jpg",
+    "bytes": 28148,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fojtk5_z&e3Bv54AzdH3Fndad0lmd9nAzdH3FOezK1xpK3",
+    "word": " Freddie Mercury 皇后乐队 照片"
+  },
+  "shakespeare": {
+    "file": "shakespeare.jpg",
+    "bytes": 36885,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fitfp56y_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbbncd0acn_8ddnb0cln",
+    "word": "莎士比亚 画像"
+  },
+  "austen": {
+    "file": "austen.jpg",
+    "bytes": 50332,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fba0dlclba_8d88ambc9",
+    "word": "简奥斯汀 画像"
+  },
+  "poe": {
+    "file": "poe.jpg",
+    "bytes": 53411,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8mdl9ddc089dc9nlmnl",
+    "word": "爱伦坡 肖像 照片"
+  },
+  "dickens": {
+    "file": "dickens.jpg",
+    "bytes": 36582,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_c9mncd0b8dmd89bclbm",
+    "word": "狄更斯 肖像 照片"
+  },
+  "hugo": {
+    "file": "hugo.jpg",
+    "bytes": 139190,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bnaclb0d99bn0c9088&ou6=frt1j6&u56=rv",
+    "word": "雨果 肖像 照片 维克多"
+  },
+  "wilde": {
+    "file": "wilde.jpg",
+    "bytes": 32515,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bxtw5i5g2fi7_z&e3Bv54AzdH3F1tfv5ej6yAzdH3Ftpj4AzdH3Fmdb8dda1aaaaaaaad8anvvlb?f576vj=q7jfpt5g",
+    "word": "奥斯卡王尔德 肖像 照片"
+  },
+  "dostoevsky": {
+    "file": "dostoevsky.jpg",
+    "bytes": 37335,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwthj_z&e3Bkwt17_z&e3Bv54AzdH3Ftpj4AzdH3F%El%ll%ba%Em%ba%lD%Ec%Am%Ac%Eb%ba%Bm%Ec%A9%AB%Em%lm%AF%Ec%lF%BA%Eb%bd%lm%Ec%bn%bFAzdH3F00lccdb",
+    "word": "陀思妥耶夫斯基 肖像"
+  },
+  "tolstoy": {
+    "file": "tolstoy.jpg",
+    "bytes": 47148,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4p_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbndbm9nd9_8d88d9089",
+    "word": "列夫托尔斯泰 肖像 照片"
+  },
+  "dickinson": {
+    "file": "dickinson.jpg",
+    "bytes": 34993,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3F0ld9nbmal_8daccblb0",
+    "word": "艾米莉狄金森 肖像 照片"
+  },
+  "hemingway": {
+    "file": "hemingway.jpg",
+    "bytes": 100503,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3F0ld99ad8m_8dac08ll0",
+    "word": "海明威 肖像 照片"
+  },
+  "caligula": {
+    "file": "caligula.jpg",
+    "bytes": 48151,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_909nlab98n8nbbammcc",
+    "word": "卡利古拉 罗马 皇帝 胸像"
+  },
+  "robespierre": {
+    "file": "robespierre.jpg",
+    "bytes": 40162,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8b88a0b0ba0dna0lcna&ou6=frt1j6&u56=rv",
+    "word": "罗伯斯庇尔 画像"
+  },
+  "borgia": {
+    "file": "borgia.jpg",
+    "bytes": 33412,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fojtk5_z&e3Bv54AzdH3Fcn9m09mldlAzdH3FNFSNilEOB",
+    "word": "切萨雷波吉亚 画像"
+  },
+  "merrick": {
+    "file": "merrick.jpg",
+    "bytes": 132984,
+    "src": "ipprf_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_c8d9cc998dal0l0cl0c",
+    "word": "象人 约瑟夫梅里克 照片"
+  },
+  "leonardo": {
+    "file": "leonardo.jpg",
+    "bytes": 295382,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bdd0cnn8md8l88lbmn&ou6=frt1j6&u56=rv",
+    "word": "达芬奇 肖像 中年男子 画像"
+  },
+  "woolf": {
+    "file": "woolf.jpg",
+    "bytes": 58445,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fb0m0m8n98_8daaanlmc",
+    "word": "弗吉尼亚伍尔夫 黑白照片"
+  },
+  "bathory": {
+    "file": "bathory.jpg",
+    "bytes": 12135,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwthj_z&e3Bkwt17_z&e3Bv54AzdH3Ftpj4AzdH3F%E9%BC%bA%E9%Bb%BD%Eb%bE%bE%E0%ll%BD%Cd%B0%Ec%B0%B9%Em%bl%lb%El%b0%bCAzdH3Fb9cc9",
+    "word": "Elizabeth Báthory 伯爵夫人 油画 肖像 历史"
+  },
+  "napoleon": {
+    "file": "napoleon.jpg",
+    "bytes": 112092,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_cdbmcaln0bd8n8db9nm",
+    "word": "拿破仑 波拿巴 半身像 肖像 大卫 皇帝"
+  },
+  "augustus": {
+    "file": "augustus.jpg",
+    "bytes": 83546,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bnbcmd0ncamb0andnl&ou6=frt1j6&u56=rv",
+    "word": "奥古斯都 雕像 胸像 罗马皇帝"
+  },
+  "tiberius": {
+    "file": "tiberius.jpg",
+    "bytes": 109484,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwthj_z&e3Bkwt17_z&e3Bv54AzdH3Ftpj4AzdH3F%Em%bF%la%Em%AF%l9%E0%lc%Ac%Cd%B0%Em%b8%BA%Em%ld%ld%Cd%B0%Ec%Ac%Ac%Ec%bF%A9%Em%lm%AF%El%bn%BDAzdH",
+    "word": "提比略 罗马 皇帝 雕像 胸像"
+  },
+  "claudius": {
+    "file": "claudius.jpg",
+    "bytes": 82987,
+    "src": "ipprf_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_98b88d0dlbmlmbcb8cl",
+    "word": "克劳狄乌斯 罗马 皇帝 雕像 胸像"
+  },
+  "galba": {
+    "file": "galba.jpg",
+    "bytes": 29375,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8mdm00988b08nl9nama&ou6=frt1j6&u56=rv",
+    "word": "加尔巴 罗马 皇帝 雕像 胸像"
+  },
+  "otho": {
+    "file": "otho.jpg",
+    "bytes": 80276,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bziti7_z&e3Bv54AzdH3FrtgAzdH3F808la9nm0c9mdmb9m0d",
+    "word": "奥托 罗马 皇帝 雕像 胸像"
+  },
+  "vitellius": {
+    "file": "vitellius.jpg",
+    "bytes": 28439,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbn8mnl0l0_8d89d0ld9",
+    "word": "维特里乌斯 罗马 皇帝 雕像 胸像"
+  },
+  "vespasian": {
+    "file": "vespasian.jpg",
+    "bytes": 136141,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B4jtrtwg_z&e3BvgAzdH3Fcjoe7xpn",
+    "word": "韦斯巴芗 罗马 皇帝 雕像 斗兽场"
+  },
+  "titus": {
+    "file": "titus.jpg",
+    "bytes": 72659,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_cnl0m9lln0mbm0acl9m",
+    "word": "提图斯 罗马 皇帝 雕像 凯旋门"
+  },
+  "domitian": {
+    "file": "domitian.jpg",
+    "bytes": 44692,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fgjof_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbn9c0acnm_8d89d0ld9",
+    "word": "图密善 罗马 皇帝 雕像 胸像"
+  },
+  "charlemagne": {
+    "file": "charlemagne.jpg",
+    "bytes": 79333,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9a8mm0mlmlmlnda88a0",
+    "word": "查理曼 画像 雕塑 皇帝 加冕"
+  },
+  "barbarossa": {
+    "file": "barbarossa.jpg",
+    "bytes": 48528,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fi7wkwg_z&e3Bv54AzdH3FrtgfAzdH3Fcln98md9caAzdH3F",
+    "word": "腓特烈 巴巴罗萨 画像 雕塑 红胡子"
+  },
+  "peter": {
+    "file": "peter.jpg",
+    "bytes": 48204,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9cmnm9nal9ll8m89blc",
+    "word": "彼得大帝 画像 肖像 雕塑 俄国"
+  },
+  "frederick2": {
+    "file": "frederick2.jpg",
+    "bytes": 34882,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bncma0mcbbmlnm8dca&ou6=frt1j6&u56=rv",
+    "word": "腓特烈大帝 画像 肖像 雕塑 普鲁士"
+  },
+  "william1": {
+    "file": "william1.jpg",
+    "bytes": 100426,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9nn09mddn8n9lma9adb",
+    "word": "征服者威廉 画像 雕塑 贝叶挂毯"
+  },
+  "henry8": {
+    "file": "henry8.jpg",
+    "bytes": 90697,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_99an9cndc099ddl9nmc",
+    "word": "亨利八世 画像 肖像 油画 都铎"
+  },
+  "cicero": {
+    "file": "cicero.jpg",
+    "bytes": 29463,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fmln08nadm_8d88cbd0d",
+    "word": "西塞罗 雕像 胸像 罗马 演说家"
+  },
+  "pericles": {
+    "file": "pericles.jpg",
+    "bytes": 44830,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bndcc9ndm80l0mcnad&ou6=frt1j6&u56=rv",
+    "word": "伯里克利 雕像 胸像 雅典 黄金时代"
+  },
+  "jefferson": {
+    "file": "jefferson.jpg",
+    "bytes": 15936,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9c8m8ca9ba9lb9ma0b0",
+    "word": "托马斯 杰斐逊 画像 肖像 美国"
+  },
+  "benfranklin": {
+    "file": "benfranklin.jpg",
+    "bytes": 29710,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fldl9ncml0_8daa8dcl0",
+    "word": "本杰明 富兰克林 肖像 照片 风筝"
+  },
+  "bismarck": {
+    "file": "bismarck.jpg",
+    "bytes": 35761,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9mnl8c9l8dddnnnclbb",
+    "word": "俾斯麦 画像 肖像 照片 铁血"
+  },
+  "rooseveltT": {
+    "file": "rooseveltT.jpg",
+    "bytes": 27083,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3Frtvp76jAzdH3Fdbllanmbn",
+    "word": "西奥多 罗斯福 肖像 照片 眼镜"
+  },
+  "archimedes": {
+    "file": "archimedes.jpg",
+    "bytes": 60709,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B4jtrtwg_z&e3BvgAzdH3Fc1wqxz52",
+    "word": "阿基米德 画像 雕塑 雕像 数学"
+  },
+  "kepler": {
+    "file": "kepler.jpg",
+    "bytes": 37088,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bnddbc9adaml0nn00c&ou6=frt1j6&u56=rv",
+    "word": "开普勒 画像 肖像 天文学家"
+  },
+  "lavoisier": {
+    "file": "lavoisier.jpg",
+    "bytes": 18293,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bd900amm9a80a0bba9&ou6=frt1j6&u56=rv",
+    "word": "拉瓦锡 画像 肖像 化学家 天平"
+  },
+  "faraday": {
+    "file": "faraday.jpg",
+    "bytes": 31743,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bdbmdc09mn8n9lanam&ou6=frt1j6&u56=rv",
+    "word": "法拉第 肖像 照片 科学家 线圈"
+  },
+  "maxwell": {
+    "file": "maxwell.jpg",
+    "bytes": 70394,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bdlbn8889b09m0nmna&ou6=frt1j6&u56=rv",
+    "word": "麦克斯韦 肖像 照片 科学家 电磁"
+  },
+  "mendel": {
+    "file": "mendel.jpg",
+    "bytes": 75579,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbblla0b80_8d88d9nan",
+    "word": "孟德尔 肖像 照片 修道士 豌豆"
+  },
+  "raphael": {
+    "file": "raphael.jpg",
+    "bytes": 28594,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9namlca09lmcmma8l98",
+    "word": "拉斐尔 自画像 画像 文艺复兴 圣母"
+  },
+  "titian": {
+    "file": "titian.jpg",
+    "bytes": 121741,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_99nn80dbbld0aamn0lb",
+    "word": "提香 画像 肖像 威尼斯 画家"
+  },
+  "vermeer": {
+    "file": "vermeer.jpg",
+    "bytes": 113904,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_9lcn9laall9bcdlla8c",
+    "word": "维米尔 画像 戴珍珠耳环 自画像"
+  },
+  "goya": {
+    "file": "goya.jpg",
+    "bytes": 60618,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_cnn9900dllml9mdl0cn",
+    "word": "戈雅 自画像 画像 西班牙 画家"
+  },
+  "turner": {
+    "file": "turner.jpg",
+    "bytes": 49372,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbmll9bccd_8dd80nllm",
+    "word": "透纳 自画像 画像 英国 风景 画家"
+  },
+  "munch": {
+    "file": "munch.jpg",
+    "bytes": 161811,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_nlm8lm9bb9d0dbn08n8",
+    "word": "蒙克 自画像 呐喊 画家 挪威"
+  },
+  "homer": {
+    "file": "homer.jpg",
+    "bytes": 117201,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B157ytg_z&e3Bv54AzdH3Fg5pjAzdH3F09babcacdmmcbncanl9",
+    "word": "荷马 雕像 盲诗人 雕塑 希腊"
+  },
+  "dante": {
+    "file": "dante.jpg",
+    "bytes": 27243,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fp6wejs_z&e3Bq7gw6_z&e3Bv54AzdH3Fr-5t8aad980l-1wg1tg227wg2viwg2-a-d?6wgh=a",
+    "word": "但丁 画像 雕塑 神曲 诗人"
+  },
+  "cervantes": {
+    "file": "cervantes.jpg",
+    "bytes": 84792,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B4jtrtwg_z&e3BvgAzdH3Fcl9kj0ow",
+    "word": "塞万提斯 画像 雕塑 唐吉诃德"
+  },
+  "goethe": {
+    "file": "goethe.jpg",
+    "bytes": 28012,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B4jtrtwg_z&e3BvgAzdH3Fn2qktrw5",
+    "word": "歌德 画像 肖像 魏玛 诗人"
+  },
+  "twain": {
+    "file": "twain.jpg",
+    "bytes": 109696,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bmd9ln0cbmbn9lc80l&ou6=frt1j6&u56=rv",
+    "word": "马克 吐温 肖像 照片 胡须 作家"
+  },
+  "christie": {
+    "file": "christie.jpg",
+    "bytes": 51126,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bziti7_z&e3Bv54AzdH3Fq7jfpt5gAzdH3F8la0bdm8a98bncdm8d9",
+    "word": "阿加莎 克里斯蒂 照片 肖像 侦探"
+  },
+  "kafka": {
+    "file": "kafka.jpg",
+    "bytes": 104842,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3F0b00cbd8l_8d8880clm",
+    "word": "卡夫卡 肖像 照片 作家 布拉格"
+  },
+  "bach": {
+    "file": "bach.jpg",
+    "bytes": 27529,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3F0dl98mmdb_8d88d9090",
+    "word": "巴赫 画像 肖像 雕塑 作曲家"
+  },
+  "chopin": {
+    "file": "chopin.jpg",
+    "bytes": 50629,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fgjof_z&e3Bqq_z&e3Bv54AzdH3F6wtgAzdH3FwAzdH3Fdad9alddAam80Uaa",
+    "word": "肖邦 画像 肖像 钢琴家 波兰"
+  },
+  "tchaikovsky": {
+    "file": "tchaikovsky.jpg",
+    "bytes": 50791,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fgjof_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fl88ld9a89_8ddnbccm0",
+    "word": "柴可夫斯基 画像 肖像 作曲家 芭蕾"
+  },
+  "hannibal": {
+    "file": "hannibal.jpg",
+    "bytes": 54797,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_ccd0l0n8mc9mamamcl9",
+    "word": "汉尼拔 迦太基 雕像 大象 统帅"
+  },
+  "richard1": {
+    "file": "richard1.jpg",
+    "bytes": 157986,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B157ytg_z&e3Bv54AzdH3Fg5pjAzdH3F0c0ncllbllacnbb8bd0",
+    "word": "理查一世 狮心王 画像 雕塑 十字军"
+  },
+  "wellington": {
+    "file": "wellington.jpg",
+    "bytes": 26961,
+    "src": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_n00lbca0d9lcl090bab",
+    "word": "威灵顿公爵 画像 雕塑 滑铁卢"
+  },
+  "jesus": {
+    "file": "jesus.jpg",
+    "bytes": 18552,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fvg_z&e3Bp576fu56u7g_z&e3Bv54AzdH3F47sptT576DjpwtsAzdH3Fip4sT5D5v?r6517vp_t1=8acd9anmm&tptgj6w6y_t1=8&pyrj=r6tgp",
+    "word": "耶稣 画像 雕塑 基督 圣经"
+  },
+  "augustine": {
+    "file": "augustine.jpg",
+    "bytes": 119963,
+    "src": "ipprf_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_90lb0999cl99na0n98m",
+    "word": "奥古斯丁 画像 雕塑 主教 希波"
+  },
+  "aquinas": {
+    "file": "aquinas.jpg",
+    "bytes": 75974,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bnnnmmdca0nmnc0da9&ou6=frt1j6&u56=rv",
+    "word": "托马斯 阿奎那 画像 雕塑 经院哲学"
+  },
+  "luther": {
+    "file": "luther.jpg",
+    "bytes": 42235,
+    "src": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bn0998a0n08n9mdcna&ou6=frt1j6&u56=rv",
+    "word": "马丁 路德 画像 雕塑 宗教改革"
+  }
+}

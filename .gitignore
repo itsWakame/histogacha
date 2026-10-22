@@ -1,0 +1,7 @@
+node_modules/
+.workbuddy/
+.wbapp_*.genie
+data/tmp/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+  napoleon: 30 results, 29 relevant
+OK   napoleon  55KB
+  alexander: 3 results, 0 relevant
+FAIL alexander
+  victoria: 30 results, 29 relevant
+OK   victoria  85KB
+  washington: 29 results, 27 relevant
+OK   washington  22KB
+  franklin: 31 results, 19 relevant
+OK   franklin  40KB
+  leonardo: 31 results, 21 relevant
+OK   leonardo  52KB
+
+DONE ok=0 fail=1 total=6

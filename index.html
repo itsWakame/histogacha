@@ -1,446 +1,195 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>嘟一下今日老婆/老公！？</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-        
-        body {
-            background: #ffffff;
-            color: #0f1419;
-            min-height: 100vh;
-            line-height: 1.5;
-        }
-        
-        .app-container {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            max-width: 600px;
-            margin: 0 auto;
-            border-left: 1px solid #eff3f4;
-            border-right: 1px solid #eff3f4;
-        }
-        
-        header {
-            background: #ffffff;
-            padding: 16px;
-            border-bottom: 1px solid #eff3f4;
-            position: sticky;
-            top: 0;
-            backdrop-filter: blur(10px);
-            z-index: 100;
-        }
-        
-        h1 {
-            font-size: 20px;
-            font-weight: 700;
-            color: #0f1419;
-        }
-        
-        .subtitle {
-            font-size: 13px;
-            color: #536471;
-            margin-top: 4px;
-        }
-        
-        .main-content {
-            flex: 1;
-            padding: 0;
-        }
-        
-        .control-section {
-            padding: 20px 16px;
-            border-bottom: 1px solid #eff3f4;
-            text-align: center;
-        }
-        
-        .btn {
-            background: #1d9bf0;
-            color: white;
-            border: none;
-            padding: 12px 0;
-            font-size: 15px;
-            font-weight: 700;
-            cursor: pointer;
-            transition: background 0.2s;
-            border-radius: 8px;
-            width: 100%;
-            max-width: 300px;
-            display: block;
-            margin: 0 auto;
-        }
-        
-        .btn:hover {
-            background: #1a8cd8;
-        }
-        
-        .btn:disabled {
-            background: #8ecdf7;
-            cursor: not-allowed;
-        }
-        
-        .result-section {
-            display: none;
-            border-bottom: 1px solid #eff3f4;
-        }
-        
-        .image-container {
-            padding: 16px;
-            text-align: center;
-            background: #f7f9fa;
-        }
-        
-        .character-image {
-            max-width: 100%;
-            max-height: 60vh;
-            width: auto;
-            height: auto;
-            border-radius: 16px;
-        }
-        
-        .character-info {
-            padding: 16px;
-        }
-        
-        .character-name {
-            font-size: 20px;
-            font-weight: 700;
-            margin-bottom: 8px;
-            color: #0f1419;
-        }
-        
-        .character-description {
-            font-size: 15px;
-            color: #0f1419;
-            line-height: 1.6;
-            margin-bottom: 16px;
-        }
-        
-        .action-buttons {
-            display: flex;
-            gap: 12px;
-        }
-        
-        .action-btn {
-            flex: 1;
-            padding: 12px 0;
-            background: transparent;
-            color: #1d9bf0;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: 700;
-            transition: background 0.2s;
-            border: 1px solid #cfd9de;
-            border-radius: 8px;
-            text-align: center;
-        }
-        
-        .action-btn:hover {
-            background: #e8f5fd;
-        }
-        
-        .status-info {
-            padding: 16px;
-            border-bottom: 1px solid #eff3f4;
-            font-size: 14px;
-            color: #536471;
-            text-align: center;
-        }
-        
-        .rules {
-            padding: 16px;
-            background: #f7f9fa;
-            margin: 0;
-            border-radius: 0;
-            border-bottom: 1px solid #eff3f4;
-        }
-        
-        .rules h3 {
-            font-size: 17px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            color: #0f1419;
-        }
-        
-        .rules-content {
-            background: white;
-            border: 1px solid #cfd9de;
-            border-radius: 12px;
-            padding: 16px;
-            font-size: 14px;
-            color: #0f1419;
-            line-height: 1.6;
-        }
-        
-        .rules-content p {
-            margin-bottom: 8px;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 16px;
-            color: #536471;
-            font-size: 13px;
-            background: #f7f9fa;
-        }
-        
-        .loading {
-            display: none;
-            margin: 20px auto;
-            width: 32px;
-            height: 32px;
-            border: 3px solid #f7f9fa;
-            border-top: 3px solid #1d9bf0;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        @media (max-width: 768px) {
-            .app-container {
-                border: none;
-            }
-            
-            .character-name {
-                font-size: 18px;
-            }
-            
-            .character-description {
-                font-size: 14px;
-            }
-        }
-        
-        /* 动画效果 */
-        .fade-in {
-            animation: fadeIn 0.3s ease;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#ffffff" />
+<title>HistoGacha 每日历史人物抽卡</title>
+<meta name="description" content="每天一位历史人物，由日期决定；相遇之后随机产生一段关系，并计入你的个人档案。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b0b0c'/%3E%3Ctext x='50' y='70' font-size='58' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-weight='bold'%3E嘟%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/css/app.css" />
 </head>
-<body>
-    <div class="app-container">
-        <header>
-            <h1>今日老婆/老公</h1>
-            <p class="subtitle">每日一次，弥补了抽奖区没有死人局的问题。</p>
-        </header>
-        
-        <div class="main-content">
-            <div class="control-section">
-                <button id="draw-btn" class="btn">嘟嘟嘟！</button>
-                <div class="loading" id="loading"></div>
-            </div>
-            
-            <div class="result-section" id="result-section">
-                <div class="image-container">
-                    <img id="character-image" class="character-image fade-in" src="" alt="角色图片">
-                </div>
-                
-                <div class="character-info">
-                    <h2 id="character-name" class="character-name"></h2>
-                    <p id="character-description" class="character-description"></p>
-                    
-                    <div class="action-buttons">
-                        <a id="download-btn" class="action-btn" href="#" download="character.png">下载图片</a>
-                        <button id="share-btn" class="action-btn">分享结果</button>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="status-info">
-                <div>今日状态: <span id="draw-status">未嘟嘟</span></div>
-            </div>
-            
-            <div class="rules">
-                <h3>Tips:</h3>
-                <div class="rules-content">
-                    <p>• 图片加载可能有点慢，请耐心等待哦！</p>
-                    <p>• 本网页仅供娱乐，不得涉及商业用途！</p>
-                </div>
-                <h3>Contributors:</h3>
-                <div class="rules-content">
-                    <p>• 没有脑袋的松鼠先生</p>
-                    <p>• Icarus</p>
-                </div>
+<body data-state="boot">
 
-            </div>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">嘟</span>
+    <div class="brand-text">
+      <h1>HistoGacha</h1>
+      <p>每日历史人物抽卡</p>
+    </div>
+  </div>
+  <div class="account" id="account" hidden>
+    <span class="who" id="who"></span>
+    <button class="btn-ghost" id="logout" type="button">退出</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ 登录 ============ -->
+  <section class="login-view" id="view-login" hidden>
+    <div class="login-card">
+      <p class="kicker">LOGIN · 登录</p>
+      <h2>登录之后，<br />每天遇见一位历史人物。</h2>
+      <p class="lede">
+        每天仅可抽取一次，抽到谁由当天的日期决定：人物的诞辰或重大事件之日。
+        相遇之后，你们的关系将从该人物的候选关系中随机产生，并计入你的个人档案。
+      </p>
+
+      <div class="auth-tabs">
+        <button class="auth-tab is-active" id="tab-otp" type="button">邮箱 · 注册 / 登录</button>
+        <button class="auth-tab" id="tab-user" type="button">用户名 · 登录</button>
+      </div>
+
+      <form id="login-form" novalidate>
+        <div class="field">
+          <label for="email">邮箱</label>
+          <input id="email" name="email" type="email" inputmode="email" autocomplete="email"
+                 placeholder="you@example.com" required />
         </div>
-        
-        <footer>
-            <p>© 2025 嘟嘟嘟！| From NoinT (AKA Olivia_uu)</p>
-        </footer>
+
+        <button class="btn-solid" id="send-code" type="button">获取验证码</button>
+
+        <div class="field code-field" id="code-field" hidden>
+          <label for="code">验证码</label>
+          <input id="code" name="code" inputmode="numeric" autocomplete="one-time-code"
+                 maxlength="6" placeholder="6 位数字" />
+        </div>
+
+        <button class="btn-solid btn-primary" id="submit-code" type="submit" hidden>进入</button>
+      </form>
+
+      <form id="user-form" novalidate hidden>
+        <div class="field">
+          <label for="username">用户名</label>
+          <input id="username" name="username" type="text" autocomplete="username"
+                 maxlength="20" placeholder="2–20 个字符" />
+        </div>
+
+        <div class="field">
+          <label for="password">密码</label>
+          <input id="password" name="password" type="password" autocomplete="current-password"
+                 placeholder="至少 6 位" />
+        </div>
+
+        <button class="btn-solid btn-primary" id="user-submit" type="submit">登录</button>
+      </form>
+
+      <p class="form-msg" id="login-msg" role="status" aria-live="polite"></p>
+      <p class="fineprint">注册仅支持邮箱验证码；已有账号可用用户名或邮箱登录，登录状态会保存在本设备。</p>
+    </div>
+  </section>
+
+  <!-- ============ 主界面 ============ -->
+  <section class="app-view" id="view-app" hidden>
+    <div class="hero">
+      <p class="hero-date"><span id="today-label">—</span></p>
+      <h1 class="hero-title">今日与你相遇</h1>
+      <p class="hero-sub" id="today-sub">每天一位 · 每天一次</p>
     </div>
 
-    <script id="_waubb0">var _wau = _wau || []; _wau.push(["dynamic", "16pzsj1a5r", "bb0", "689da7ffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
+    <div class="reveal">
+      <div class="card-shell">
+        <div class="card" id="card">
+          <!-- 背面 -->
+          <div class="face face-back">
+            <div class="back-inner">
+              <span class="back-glyph">遇</span>
+              <p class="back-line">抽取中</p>
+              <div class="shuffle" id="shuffle-line">—</div>
+            </div>
+          </div>
 
-    <script>
-        // 角色数据 - 使用高清图片URL
-        const characters = [
-            {
-                name: "Rudolf Franz Karl Joseph",
-                description: "奥匈帝国皇太子，奥匈帝国皇帝弗朗茨·约瑟夫一世和茜茜公主的独子。",
-                image: "https://www.img520.com/hh0wwl.png"
-            },
-            {
-                name: "Elisabeth Amalie Eugenie",
-                description: "茜茜公主，巴伐利亚的伊丽莎白女公爵，奥匈帝国皇帝弗朗茨·约瑟夫一世的妻子。",
-                image: "https://www.img520.com/V82ZS5.jpeg"
-            },
-            {
-                name: "Wilhelm II von Deutschland",
-                description: "威廉二世，原名 Friedrich Wilhelm Viktor Albert von Hohenzollern ，是德意志帝国末代皇帝和普鲁士王国末代国王（1888年6月15日～1918年11月9日在位）。他是威廉一世的长孙，弗里德里希三世和维多利亚公主的长子。",
-                image: "https://www.img520.com/f9CfBD.jpeg"
-            },
-            {
-                name: "Franz Joseph I",
-                description: "弗朗茨·约瑟夫一世，奥地利帝国及奥匈帝国皇帝。神圣罗马帝国末代皇帝弗朗茨二世之孙、斐迪南一世之侄、弗兰茨·卡尔大公长子，其母为巴伐利亚国王马克西米利安一世之女索菲公主。",
-                image: "https://www.img520.com/o8TQc6.jpg"
-            },
-            {
-                name: "Jesus Christ",
-                description: "耶稣，基督教的核心人物，被基督徒视为上帝的化身和期待已久的救世主（弥赛亚）。",
-                image: "https://www.img520.com/ba4TR7.jpg"
-            },
-            {
-                name: "Nero Claudius Caesar Augustus Germanicus",
-                description: "尼禄，原名Lucius Domitius Ahenobarbus，罗马帝国第五位皇帝、朱里亚·克劳狄王朝的最后一位皇帝，公元54年—公元68年6月9日在位。",
-                image: "https://www.img520.com/4ZAUgV.jpg"
-            },
-            {
-                name: "Gaius Julius Caesar Augustus Germanicus",
-                description: "卡利古拉，罗马帝国第三位皇帝、朱里亚·克劳狄王朝第三位皇帝，公元37年3月18日-公元41年1月24日在位。",
-                image: "https://www.img520.com/1P9wEa.jpg"
-            },
-            {
-                name: "Αλέξανδρος",
-                description: "亚历山大大帝（Alexander the Great），马其顿王国国王（前336年—前323年6月13日在位），称亚历山大三世，西方历史上四大军事统帅之首，马其顿国王腓力二世之子。",
-                image: "https://www.img520.com/WzL2Qw.png"
-            }
-        ];
-        
-        // DOM元素
-        const drawBtn = document.getElementById('draw-btn');
-        const resultSection = document.getElementById('result-section');
-        const characterImage = document.getElementById('character-image');
-        const characterName = document.getElementById('character-name');
-        const characterDescription = document.getElementById('character-description');
-        const loading = document.getElementById('loading');
-        const drawStatusElement = document.getElementById('draw-status');
-        const downloadBtn = document.getElementById('download-btn');
-        const shareBtn = document.getElementById('share-btn');
-        
-        // 检查今天是否已经抽过奖
-        function hasDrawnToday() {
-            const lastDrawDate = localStorage.getItem('lastDrawDate');
-            const today = new Date().toDateString();
-            
-            return lastDrawDate === today;
-        }
-        
-        // 初始化页面
-        function initPage() {
-            if (hasDrawnToday()) {
-                drawBtn.disabled = true;
-                drawBtn.textContent = '今日已嘟嘟';
-                drawStatusElement.textContent = "已嘟嘟";
-                
-                // 显示上次抽奖结果
-                const lastCharacter = localStorage.getItem('lastCharacter');
-                if (lastCharacter) {
-                    const character = JSON.parse(lastCharacter);
-                    characterImage.src = character.image;
-                    characterImage.alt = character.name;
-                    characterName.textContent = character.name;
-                    characterDescription.textContent = character.description;
-                    downloadBtn.href = character.image;
-                    resultSection.style.display = 'block';
-                }
-            } else {
-                drawStatusElement.textContent = "未嘟嘟";
-            }
-        }
-        
-        // 抽奖逻辑
-        drawBtn.addEventListener('click', function() {
-            // 检查今天是否已经抽过奖
-            if (hasDrawnToday()) {
-                alert('您今天已经嘟嘟过了，请明天再来！');
-                return;
-            }
-            
-            // 显示加载动画
-            loading.style.display = 'block';
-            drawBtn.disabled = true;
-            
-            // 模拟网络延迟
-            setTimeout(() => {
-                // 执行抽奖
-                const randomIndex = Math.floor(Math.random() * characters.length);
-                const selectedCharacter = characters[randomIndex];
-                
-                // 显示结果
-                characterImage.src = selectedCharacter.image;
-                characterImage.alt = selectedCharacter.name;
-                characterName.textContent = selectedCharacter.name;
-                characterDescription.textContent = selectedCharacter.description;
-                downloadBtn.href = selectedCharacter.image;
-                resultSection.style.display = 'block';
-                
-                // 记录抽奖日期和结果
-                const today = new Date().toDateString();
-                localStorage.setItem('lastDrawDate', today);
-                localStorage.setItem('lastCharacter', JSON.stringify(selectedCharacter));
-                
-                // 更新状态
-                drawBtn.textContent = '今日已抽奖';
-                drawStatusElement.textContent = "已抽奖";
-                
-                // 隐藏加载动画
-                loading.style.display = 'none';
-                
-                // 滚动到结果区域
-                resultSection.scrollIntoView({ behavior: 'smooth' });
-            }, 1500);
-        });
-        
-        // 分享功能
-        shareBtn.addEventListener('click', function() {
-            if (navigator.share) {
-                navigator.share({
-                    title: '我的每日老婆抽奖结果',
-                    text: `我嘟到了${characterName.textContent}！`,
-                    url: window.location.href
-                })
-                .catch(error => console.log('分享出错:', error));
-            } else {
-                // 如果不支持Web Share API，则复制到剪贴板
-                const textArea = document.createElement('textarea');
-                textArea.value = `我嘟到了${characterName.textContent}！${characterDescription.textContent}`;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-                alert('结果已复制到剪贴板！');
-            }
-        });
-        
-        // 页面加载时初始化
-        window.addEventListener('load', initPage);
-    </script>
+          <!-- 正面 -->
+          <div class="face face-front" id="card-front">
+            <div class="portrait-wrap">
+              <img id="portrait" alt="" />
+              <div class="portrait-veil"></div>
+              <div class="portrait-fallback" id="portrait-fallback"><span></span></div>
+              <div class="portrait-meta">
+                <span class="era" id="p-era"></span>
+                <span class="years" id="p-years"></span>
+              </div>
+            </div>
+            <div class="card-foot">
+              <h2 class="f-name" id="p-name"></h2>
+              <p class="f-alt" id="p-alt"></p>
+            </div>
+          </div>
+        </div>
+        <div class="card-shadow" aria-hidden="true"></div>
+      </div>
+
+      <div class="draw-zone">
+        <button class="btn-draw" id="draw-btn" type="button">
+          <span class="dot"></span><span id="draw-text">嘟一下</span>
+        </button>
+        <p class="stage-status" id="stage-status"></p>
+      </div>
+    </div>
+
+    <div class="dossier" id="dossier">
+
+      <div class="dossier-empty" id="dossier-empty">
+        <p class="kicker">WAITING</p>
+        <h3>今天还未抽取</h3>
+        <p>点击下方按钮开始今日抽取，日期决定今天出现的人物。</p>
+      </div>
+
+      <article class="dossier-body" id="dossier-body" hidden>
+        <div class="verdict" id="d-verdict"></div>
+
+        <header class="dossier-head">
+          <p class="kicker" id="d-kicker">—</p>
+          <h2 class="d-name" id="d-name"></h2>
+          <p class="d-alt" id="d-alt"></p>
+          <div class="chips">
+            <span class="chip chip-seal" id="d-relation"></span>
+            <span class="chip" id="d-link"></span>
+            <span class="chip chip-soft" id="d-role"></span>
+          </div>
+        </header>
+
+        <div class="relation-block">
+          <p class="block-kicker">你与 TA 的关系</p>
+          <div class="rel-chosen" id="d-relation-text">—</div>
+          <p class="cand-label">候选关系 · 今日随机选中其一</p>
+          <div class="rel-candidates" id="d-relations"></div>
+          <p class="bond-note" id="d-bond-note"></p>
+        </div>
+
+        <div class="bio-block">
+          <p class="block-kicker">其人</p>
+          <p class="figure-text" id="d-bio-text"></p>
+        </div>
+
+        <footer class="dossier-foot">
+          <button class="btn-line" id="copy-btn" type="button">复制这段相遇</button>
+          <button class="btn-line" id="share-btn" type="button">分享</button>
+        </footer>
+      </article>
+
+      <section class="archive" id="archive">
+        <div class="archive-head">
+          <p class="kicker">ARCHIVE</p>
+          <h3>往日相遇 <span class="count" id="archive-count"></span></h3>
+          <p class="stats-line" id="stats-line"></p>
+        </div>
+        <ul class="archive-list" id="archive-list"></ul>
+        <p class="archive-tip" id="archive-tip"></p>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p>纯属虚构，请勿当真。</p>
+  <p class="credit">Made with ❤ by Alkaline Wakame.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/app.bundle.js"></script>
 </body>
 </html>

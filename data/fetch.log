@@ -1,0 +1,102 @@
+ERR  napoleon  Bad control character in string literal in JSON at position 62718 (line 74 column 129)
+FAIL napoleon
+  caesar: 31 results, 24 relevant
+OK   caesar  55KB
+  alexander: 3 results, 0 relevant
+FAIL alexander
+  joan: 31 results, 29 relevant
+OK   joan  117KB
+  elizabeth1: 31 results, 29 relevant
+OK   elizabeth1  100KB
+  louis14: 31 results, 24 relevant
+OK   louis14  144KB
+  catherine2: 31 results, 30 relevant
+OK   catherine2  82KB
+ERR  victoria  Bad control character in string literal in JSON at position 61136 (line 104 column 129)
+FAIL victoria
+ERR  washington  Bad control character in string literal in JSON at position 48322 (line 99 column 129)
+FAIL washington
+  lincoln: 31 results, 30 relevant
+OK   lincoln  43KB
+  churchill: 31 results, 30 relevant
+OK   churchill  59KB
+  nero: 31 results, 20 relevant
+OK   nero  29KB
+  copernicus: 31 results, 29 relevant
+OK   copernicus  40KB
+  galileo: 31 results, 29 relevant
+OK   galileo  40KB
+  newton: 31 results, 30 relevant
+OK   newton  90KB
+  darwin: 31 results, 26 relevant
+OK   darwin  62KB
+  pasteur: 31 results, 30 relevant
+OK   pasteur  80KB
+  tesla: 31 results, 28 relevant
+OK   tesla  68KB
+  curie: 31 results, 27 relevant
+OK   curie  48KB
+  einstein: 31 results, 30 relevant
+OK   einstein  26KB
+  turing: 31 results, 28 relevant
+OK   turing  22KB
+  ada: 31 results, 24 relevant
+OK   ada  35KB
+  franklin: 31 results, 19 relevant
+FAIL franklin
+ERR  leonardo  fetch failed
+FAIL leonardo
+ERR  michelangelo  fetch failed
+FAIL michelangelo
+ERR  caravaggio  fetch failed
+FAIL caravaggio
+ERR  rembrandt  fetch failed
+FAIL rembrandt
+ERR  vangogh  fetch failed
+FAIL vangogh
+ERR  monet  fetch failed
+FAIL monet
+ERR  picasso  fetch failed
+FAIL picasso
+ERR  kahlo  fetch failed
+FAIL kahlo
+ERR  mozart  fetch failed
+FAIL mozart
+ERR  beethoven  fetch failed
+FAIL beethoven
+ERR  freddie  fetch failed
+FAIL freddie
+ERR  shakespeare  fetch failed
+FAIL shakespeare
+ERR  austen  fetch failed
+FAIL austen
+ERR  poe  fetch failed
+FAIL poe
+ERR  dickens  fetch failed
+FAIL dickens
+ERR  hugo  fetch failed
+FAIL hugo
+ERR  wilde  fetch failed
+FAIL wilde
+ERR  dostoevsky  fetch failed
+FAIL dostoevsky
+ERR  tolstoy  fetch failed
+FAIL tolstoy
+ERR  dickinson  fetch failed
+FAIL dickinson
+ERR  woolf  fetch failed
+FAIL woolf
+ERR  hemingway  fetch failed
+FAIL hemingway
+ERR  caligula  fetch failed
+FAIL caligula
+ERR  bathory  fetch failed
+FAIL bathory
+ERR  robespierre  fetch failed
+FAIL robespierre
+ERR  borgia  fetch failed
+FAIL borgia
+ERR  merrick  fetch failed
+FAIL merrick
+
+DONE ok=0 fail=32 total=50
