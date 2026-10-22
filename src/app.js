@@ -4,9 +4,9 @@ import { createWorkBuddyCloud } from '@tencent-ai/workbuddy-cloud-sdk'
    云服务初始化（publicConfig 由云服务环境下发）
 ------------------------------------------------------------------ */
 const cloud = createWorkBuddyCloud({
-  endpoint: 'https://daily-encounter.app.workbuddy.link',
+  endpoint: 'https://histogacha.app.workbuddy.link',
   oauthRelayBaseUrl: 'https://www.workbuddy.cn/v2/as/genie-baas/oauth',
-  publishableKey: 'wbpk_juhQ39hYjBKj7t4Ni7V3VY_RAbaxUV4TFytd8RyppKCz9d6Aw4guPAE',
+  publishableKey: 'wbpk_8Wg01dlcvfc9wtgQIt3nOp_BDgpmNXKW1qOTP1XBMl5PvdsqQyQcr2h',
 })
 
 /* ------------------------------------------------------------------
