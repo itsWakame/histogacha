@@ -1,8 +1,5 @@
 import { createWorkBuddyCloud } from '@tencent-ai/workbuddy-cloud-sdk'
 
-/* ------------------------------------------------------------------
-   云服务初始化（publicConfig 由云服务环境下发）
------------------------------------------------------------------- */
 const cloud = createWorkBuddyCloud({
   // 云服务按 Origin 精确校验，必须与站点所在应用一致
   endpoint: 'https://daily-encounter.app.workbuddy.link',
@@ -10,9 +7,6 @@ const cloud = createWorkBuddyCloud({
   publishableKey: 'wbpk_juhQ39hYjBKj7t4Ni7V3VY_RAbaxUV4TFytd8RyppKCz9d6Aw4guPAE',
 })
 
-/* ------------------------------------------------------------------
-   小工具
------------------------------------------------------------------- */
 const $ = (id) => document.getElementById(id)
 const TZ = 'Asia/Shanghai'
 
@@ -42,9 +36,6 @@ function toast(msg) {
   toastTimer = setTimeout(() => el.classList.remove('show'), 2600)
 }
 
-/* ------------------------------------------------------------------
-   状态
------------------------------------------------------------------- */
 const TOKEN_KEY = 'hg_token'
 const getToken = () => localStorage.getItem(TOKEN_KEY) || ''
 const setToken = (t) => {
@@ -62,9 +53,6 @@ const state = {
   drawing: false,
 }
 
-/* ------------------------------------------------------------------
-   视图切换
------------------------------------------------------------------- */
 function showLogin() {
   $('view-login').hidden = false
   $('view-app').hidden = true
@@ -86,9 +74,6 @@ function showApp() {
   $('today-label').textContent = prettyDate(todayISO())
 }
 
-/* ------------------------------------------------------------------
-   登录：邮箱验证码
------------------------------------------------------------------- */
 let pendingOtp = null
 let sendCooldown = 0
 
