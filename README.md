@@ -1,3 +1,4 @@
 # History Gacha
 
-Because of the need for login service, `itswakame.github.io/histogacha` will direct to `https://histogacha.app.workbuddy.link` automatically.
+Made by me and upgraded by Workbuddy.
+Because of login service, `itswakame.github.io/histogacha` will direct to `https://daily-encounter.app.workbuddy.link` automatically.
